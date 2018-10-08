@@ -24,7 +24,7 @@ def titleize(title)
 	title = title.gsub("And", "and")
 	title = title.gsub("To", "to")
 	title = title.gsub("The", "the")
-	title = title.gsub("but", "but")
+	title = title.gsub("But", "but")
 	title[0] = title[0].upcase
 	return title
 end
